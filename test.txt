@@ -1,0 +1,7 @@
+photo: 'https://i.loli.net/2020/04/01/utjN3KocRzX2AQy.jpg',
+            name: '吴小苗',
+            sex: '女',
+            birthdate: '1988-08-09',
+            natived: '汉族',
+            emplace: '上海市宝山区吴淞街道派出所',
+            address: '上海市宝山区塘后支路55弄4号楼302室'
