@@ -9,10 +9,11 @@
           <p slot="content" style="font-size: 13px;margin-bottom: 6px">
             <span>{{item.natived}}</span> /
             <span>{{item.birthdate}}</span> /
-            <span>{{item.emplace}}</span>
+            <span>{{item.sex}}</span>
           </p>
+          <p slot="content" style="width: 300px" class="abstract">{{item.emplace}}</p>
           <p slot="content" style="width: 300px" class="abstract">{{item.address1}}</p>
-          <el-card style="width: 135px;margin-bottom: 20px;height: 233px;float: left;margin-right: 15px" class="book"
+          <el-card style="width: 135px;margin-bottom: 20px;height: 220px;float: left;margin-right: 15px" class="book"
                    bodyStyle="padding:10px" shadow="hover">
             <div class="cover" @click="editBook(item)">
               <img :src="item.photo" alt="证件照">
@@ -20,10 +21,10 @@
             <div class="info">
               <div class="title">
                 <a href="">{{item.name}}</a>
+                <i class="el-icon-delete" @click="deleteBook(item.id)"></i>
               </div>
-              <i class="el-icon-delete" @click="deleteBook(item.id)"></i>
+              <div class="author"><a>{{item.sex}}</a></div>
             </div>
-            <div class="author">{{item.sex}}</div>
           </el-card>
         </el-tooltip>
         <edit-form @onSubmit="loadBooks()" ref="edit"></edit-form>
@@ -142,7 +143,7 @@
 
   img {
     width: 115px;
-    height: 162px;
+    height: 165px;
     margin: 0 auto;
   }
 
