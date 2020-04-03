@@ -1,21 +1,8 @@
-# villagemanagementplatform-vue
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 东赵家村管综合信息化平台前端
+后端API文档：http://139.224.2.57:8443/swagger-ui.html
+前端DEMO：http://106.13.185.246:8081
+## 前端技术栈
+* Vue.js
+* ElementUI
+* axios
+在开发过程中可能会不断引入新的技术，后端团队会将有必要的技术新增上去。
